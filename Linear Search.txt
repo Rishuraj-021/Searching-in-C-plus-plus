@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   
+    cout<<"Enter the Size of Dataset"<<endl;
+    int len,num;
+    cin>>len;
+    int arr[len];
+    for(int i=0;i<len;i++)
+    {
+        cout<<"Enter the number"<<endl;
+        cin>>arr[i];
+        
+    }
+    cout<<"Enter the number to be found"<<endl;
+    cin>>num;
+    
+    for(int i=0;i<len;i++)
+    {
+        if(arr[i]==num)
+        cout<<num<<" Found at "<<i<<" Index"<<endl;
+        
+    }
+    
+    
+}
